@@ -7,12 +7,12 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: 123456
-    url: jdbc:mysql://127.0.0.1:3306/recommand?characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://39.98.174.77:3306/recommand?characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: true
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://39.98.174.77:8761/eureka/
 env:
   dev1
